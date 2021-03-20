@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6591707525F7C89800D287B9 /* AddTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591707425F7C89800D287B9 /* AddTipView.swift */; };
+		6591707925F862B100D287B9 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591707825F862B100D287B9 /* VideoView.swift */; };
 		6596483125F6C2D1007DA398 /* GolfSwingTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596483025F6C2D1007DA398 /* GolfSwingTipsApp.swift */; };
 		6596483325F6C2D1007DA398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596483225F6C2D1007DA398 /* ContentView.swift */; };
 		6596483525F6C2D6007DA398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6596483425F6C2D6007DA398 /* Assets.xcassets */; };
 		6596483825F6C2D6007DA398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6596483725F6C2D6007DA398 /* Preview Assets.xcassets */; };
+		6596484125F6C414007DA398 /* GolfTipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596484025F6C414007DA398 /* GolfTipModel.swift */; };
+		6596484425F6E471007DA398 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596484325F6E471007DA398 /* DetailView.swift */; };
+		65A79CA926029C8C00B80DEF /* AddVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A79CA826029C8C00B80DEF /* AddVideoView.swift */; };
+		65A79CAC2602DB1200B80DEF /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A79CAB2602DB1200B80DEF /* VideoDetailView.swift */; };
+		65A79CB02603A9A500B80DEF /* AddSwingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A79CAF2603A9A500B80DEF /* AddSwingType.swift */; };
+		65A79CB32603AE3800B80DEF /* SwingTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A79CB22603AE3800B80DEF /* SwingTypeView.swift */; };
+		65B5440B25FD6D9700C8336A /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5440A25FD6D9700C8336A /* SideMenuView.swift */; };
+		65B5440E25FD6DB000C8336A /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5440D25FD6DB000C8336A /* SideMenuHeaderView.swift */; };
+		65B5441125FD9B0F00C8336A /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5441025FD9B0F00C8336A /* SideMenuOptionView.swift */; };
+		65B5441425FD9B6100C8336A /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5441325FD9B6100C8336A /* SideMenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6591707425F7C89800D287B9 /* AddTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTipView.swift; sourceTree = "<group>"; };
+		6591707825F862B100D287B9 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		6596482D25F6C2D1007DA398 /* GolfSwingTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfSwingTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6596483025F6C2D1007DA398 /* GolfSwingTipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfSwingTipsApp.swift; sourceTree = "<group>"; };
 		6596483225F6C2D1007DA398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6596483425F6C2D6007DA398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6596483725F6C2D6007DA398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6596483925F6C2D6007DA398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6596484025F6C414007DA398 /* GolfTipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfTipModel.swift; sourceTree = "<group>"; };
+		6596484325F6E471007DA398 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		65A79CA826029C8C00B80DEF /* AddVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoView.swift; sourceTree = "<group>"; };
+		65A79CAB2602DB1200B80DEF /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		65A79CAF2603A9A500B80DEF /* AddSwingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSwingType.swift; sourceTree = "<group>"; };
+		65A79CB22603AE3800B80DEF /* SwingTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingTypeView.swift; sourceTree = "<group>"; };
+		65B5440A25FD6D9700C8336A /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		65B5440D25FD6DB000C8336A /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		65B5441025FD9B0F00C8336A /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		65B5441325FD9B6100C8336A /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,18 @@
 			children = (
 				6596483025F6C2D1007DA398 /* GolfSwingTipsApp.swift */,
 				6596483225F6C2D1007DA398 /* ContentView.swift */,
+				6596484025F6C414007DA398 /* GolfTipModel.swift */,
+				65B5440A25FD6D9700C8336A /* SideMenuView.swift */,
+				65B5441025FD9B0F00C8336A /* SideMenuOptionView.swift */,
+				65B5441325FD9B6100C8336A /* SideMenuViewModel.swift */,
+				65B5440D25FD6DB000C8336A /* SideMenuHeaderView.swift */,
+				6596484325F6E471007DA398 /* DetailView.swift */,
+				6591707425F7C89800D287B9 /* AddTipView.swift */,
+				6591707825F862B100D287B9 /* VideoView.swift */,
+				65A79CAB2602DB1200B80DEF /* VideoDetailView.swift */,
+				65A79CA826029C8C00B80DEF /* AddVideoView.swift */,
+				65A79CB22603AE3800B80DEF /* SwingTypeView.swift */,
+				65A79CAF2603A9A500B80DEF /* AddSwingType.swift */,
 				6596483425F6C2D6007DA398 /* Assets.xcassets */,
 				6596483925F6C2D6007DA398 /* Info.plist */,
 				6596483625F6C2D6007DA398 /* Preview Content */,
@@ -138,8 +174,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6591707925F862B100D287B9 /* VideoView.swift in Sources */,
+				65A79CAC2602DB1200B80DEF /* VideoDetailView.swift in Sources */,
+				65B5440E25FD6DB000C8336A /* SideMenuHeaderView.swift in Sources */,
+				65B5440B25FD6D9700C8336A /* SideMenuView.swift in Sources */,
+				65A79CA926029C8C00B80DEF /* AddVideoView.swift in Sources */,
+				6596484125F6C414007DA398 /* GolfTipModel.swift in Sources */,
+				6591707525F7C89800D287B9 /* AddTipView.swift in Sources */,
+				65A79CB32603AE3800B80DEF /* SwingTypeView.swift in Sources */,
+				6596484425F6E471007DA398 /* DetailView.swift in Sources */,
+				65A79CB02603A9A500B80DEF /* AddSwingType.swift in Sources */,
 				6596483325F6C2D1007DA398 /* ContentView.swift in Sources */,
 				6596483125F6C2D1007DA398 /* GolfSwingTipsApp.swift in Sources */,
+				65B5441425FD9B6100C8336A /* SideMenuViewModel.swift in Sources */,
+				65B5441125FD9B0F00C8336A /* SideMenuOptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GolfSwingTips/Preview Content\"";
+				DEVELOPMENT_TEAM = YVX3964CRA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GolfSwingTips/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GolfSwingTips/Preview Content\"";
+				DEVELOPMENT_TEAM = YVX3964CRA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GolfSwingTips/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
