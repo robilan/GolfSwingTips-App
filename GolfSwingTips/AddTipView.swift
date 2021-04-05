@@ -16,7 +16,8 @@ struct AddTipView: View {
     var body: some View {
         NavigationView {
             Form {
-                TextField("Enter the Tip", text: $tipText)
+                Text("Enter Tip")
+                TextEditor(text: $tipText)
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle("Add Tip  for \(forSwingType)", displayMode: .inline)
