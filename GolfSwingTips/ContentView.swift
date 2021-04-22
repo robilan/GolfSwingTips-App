@@ -27,7 +27,7 @@ struct ContentView: View {
                         print("DEBUG: Show menu here....")
                     }, label: {
                         Image(systemName: "list.bullet.rectangle")
-                            .foregroundColor(.black)
+                            .foregroundColor(.red)
                     }))
                     .navigationBarTitle("Swing Tips", displayMode: .inline)
             }
