@@ -22,7 +22,7 @@ struct SideMenuHeaderView: View {
             })
             
             VStack(alignment: .leading) {
-                Image("Vanilla")
+                Image(systemName: "questionmark.video.fill")
                     .resizable()
                     .scaledToFill()
                     .clipped()
